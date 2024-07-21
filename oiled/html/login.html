@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <header>
+        <div class="con">
+            <section class="left"></section>
+            <section class="right">
+                <a href="../index.html">首页</a>
+                <a href="./login.html">登录</a>
+                <a href="./register.html">注册</a>
+            </section>
+        </div>
+    </header>
+    <main>
+        <div class="login-container">
+            <form action="/login" method="post">
+                <h2>登录</h2>
+                <div class="form-group">
+                    <label for="username">用户名:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">密码:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">登录</button>
+            </form>
+        </div>
+    </main>
+    <!--footer开始-->
+    <footer>
+        <div class="logo"></div>
+        <div class="message">
+            <form>
+                <ul class="left">
+                    <li>
+                        <p><label for="">姓名：</label></p>
+                        <input type="text">
+                    </li>
+                    <li>
+                        <p>邮箱：</p>
+					    <input type="email">
+                    </li>
+                    <li>
+                        <p>电话：</p>
+					    <input type="tel" pattern="^\d{11}$" title="请输入11位数字">
+                    </li>
+                    <li>
+                        <p>密码：</p>
+					    <input type="password">
+                    </li>
+                    <li>
+                        <input class="but" type="submit" value="">
+                    </li>
+                </ul>
+                <div class="right">
+                    <p>留言：</p>
+                    <textarea></textarea>
+                </div>
+            </form>
+        </div>
+    </footer>
+    <!--footer结束-->
+    <!--copyright开始-->
+    <div class="copyright">
+        <a href="./copyright.html">泸州油纸伞 独具匠心 工艺传承</a>
+    </div>
+    <!--copyright结束-->
+</body>
+</html>
